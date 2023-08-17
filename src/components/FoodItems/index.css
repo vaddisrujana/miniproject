@@ -1,0 +1,52 @@
+.item-background {
+  display: flex;
+  width: 30vw;
+}
+.item-name {
+  color: var(--light-blue-gray-700, #334155);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.2px;
+}
+.item-cost {
+  color: var(--light-blue-gray-700, #334155);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.item-rating {
+  color: #0a1f44;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+}
+.add-button {
+  color: #ffa412;
+
+  /* Action / Button / Small */
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+  border-radius: 8px;
+  border: 2px solid #ffa412;
+  background-color: transparent;
+  cursor: pointer;
+}
+.item-back {
+  padding: 10px;
+}
+.item-icon {
+  width: 255px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}

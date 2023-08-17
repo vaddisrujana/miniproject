@@ -1,0 +1,68 @@
+.restaurant-image {
+  width: 445px;
+  height: 280px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: lightgray 50% / cover no-repeat;
+}
+.restaurantDetails-container1 {
+  display: flex;
+}
+.restaurantDetails-container11 {
+  padding: 10px;
+}
+.restaurantDetails-container111 {
+  display: flex;
+}
+.padding {
+  padding: 10px;
+}
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+.restaurantDetails-container1 {
+  background-color: #333;
+  padding: 20px;
+}
+.name {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: 0.2px;
+}
+.restaurant-cuisine {
+  color: var(--light-base-white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.restaurant-location {
+  color: var(--light-base-white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.restaurant-rating {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.restaurant-reviewsCount {
+  color: var(--light-blue-gray-200, #e2e8f0);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}

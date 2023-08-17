@@ -1,0 +1,99 @@
+.header {
+  color: #183b56;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+}
+.home-para {
+  color: var(--light-blue-gray-500, #64748b);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.carousal {
+  height: 40vh;
+  width: 1440px;
+}
+.restaurant-icon {
+  width: 240px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.restaurants-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.restaurant-name {
+  width: 174px;
+  color: var(--light-blue-gray-700, #334155);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.2px;
+}
+.food-type {
+  width: 174px;
+  color: var(--light-blue-gray-500, #64748b);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.rating {
+  color: var(--light-blue-gray-800, #1e293b);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.span {
+  color: var(--light-blue-gray-500, #64748b);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.home-container {
+  padding: 40px;
+}
+.count {
+  display: flex;
+  justify-content: center;
+}
+.restaurant-decrement {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border: 1px solid var(--light-blue-gray-700, #334155);
+  margin-top: 15px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.select {
+  border-width: 0;
+}
+.left-arrow {
+  margin-top: 20px;
+}
+.flex1 {
+  display: flex;
+}
+.list {
+  list-style-type: none;
+}

@@ -1,0 +1,39 @@
+.footer-background {
+  width: 1440px;
+  height: 424px;
+  flex-shrink: 0;
+  background: var(--light-blue-gray-900, #0f172a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-container1 {
+  display: flex;
+  text-align: center;
+}
+.footer-tasty-kitchens {
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+}
+.footer-para {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+.footer-container2 {
+  display: flex;
+}
+.footer-logo {
+  margin-right: 20px;
+}

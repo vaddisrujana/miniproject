@@ -1,0 +1,21 @@
+.payment-background {
+  height: 80vh;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.home {
+  border-radius: 8px;
+  background: #f7931e;
+  color: var(--light-base-white, #fff);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+  border-width: 0;
+  padding: 10px;
+  cursor: pointer;
+}
