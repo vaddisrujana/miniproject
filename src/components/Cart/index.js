@@ -77,9 +77,9 @@ class Cart extends Component {
             </ul>
             <hr />
             <div className="total-container">
-              <p className="order-total">Order Total:</p>
+              <h1 className="order-total">Order Total:</h1>
               <div>
-                <p className="price">
+                <p className="price" data-testid="total-price">
                   <BiRupee />
                   {orderTotal}
                 </p>

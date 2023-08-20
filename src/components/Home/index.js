@@ -170,13 +170,13 @@ class Home extends Component {
         <Slider {...settings}>
           {data.length > 0 ? (
             data.map(item => (
-              <div key={item.id}>
+              <li key={item.id}>
                 <img
                   src={item.image_url}
                   alt={`Offer ${item.id}`}
                   className="carousal"
                 />
-              </div>
+              </li>
             ))
           ) : (
             <div>Loading carousel...</div>
@@ -192,6 +192,7 @@ class Home extends Component {
 
             <div className="flex">
               <BsFilterLeft className="left-arrow" />
+              <p>Sort By</p>
               <select onChange={this.onChangeOption} className="select">
                 {sortByOptions.map(each => (
                   <option key={each.id} value={each.value}>

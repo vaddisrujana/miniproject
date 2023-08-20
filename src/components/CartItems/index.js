@@ -51,10 +51,10 @@ const CartItems = props => {
 
   return (
     <li className="list">
-      <div className="cart-flex">
+      <div className="cart-flex" data-testid="cartItem">
         <div className="cart">
           <img src={image} alt={name} className="cart-image" />
-          <p className="item-name">{name}</p>
+          <h1 className="item-name">{name}</h1>
         </div>
         <div className="flex">
           <div>
@@ -62,13 +62,17 @@ const CartItems = props => {
               className="button-margin"
               type="button"
               onClick={onDecrement}
+              data-testid="decrement-quantity"
             >
               -
             </button>
           </div>
-          <p className="quantity">{count}</p>
+          <p className="quantity" data-testid="item-quantity">
+            {count}
+          </p>
           <div>
             <button
+              data-testid="increment-quantity"
               className="button-margin"
               type="button"
               onClick={onIncrement}

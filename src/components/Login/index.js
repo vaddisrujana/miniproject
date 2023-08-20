@@ -54,9 +54,9 @@ class Login extends Component {
       <div className="background">
         <div className="login-background">
           <div className="login-container1">
-            <img src={hat} alt="hat" />
+            <img src={hat} alt="website logo" />
             <h1 className="title">Tasty Kitchens</h1>
-            <p className="login-title">Login</p>
+            <h1 className="login-title">Login</h1>
             <form onSubmit={this.login}>
               <label htmlFor="username" className="label">
                 USERNAME
@@ -89,7 +89,7 @@ class Login extends Component {
             </form>
           </div>
         </div>
-        <img src={loginImage} alt="img" />
+        <img src={loginImage} alt="website login" />
       </div>
     )
   }

@@ -1,23 +1,30 @@
-import {tastyKitchens, instagram, twitter, facebook, p} from '../../assets'
+import {
+  FaPinterestSquare,
+  FaInstagram,
+  FaTwitter,
+  FaFacebookSquare,
+} from 'react-icons/fa'
+import {tastyKitchens, instagram, twitter, facebook} from '../../assets'
 
 import './index.css'
 
 const Footer = () => (
   <div className="footer-background">
     <div className="footer-container1">
-      <img src={tastyKitchens} alt="logo" />
+      <img src={tastyKitchens} alt="website-footer-logo" />
       <h1 className="footer-tasty-kitchens">Tasty Kitchens</h1>
     </div>
     <p className="footer-para">
-      The only thing we are serious about is food.
-      <br />
-      Contact us on
+      The only thing we are serious about is food. Contact us on
     </p>
     <div className="footer-container2">
-      <img src={p} alt="p" className="footer-logo" />
-      <img src={instagram} alt="instagram" className="footer-logo" />
-      <img src={twitter} alt="twitter" className="footer-logo" />
-      <img src={facebook} alt="facebook" className="footer-logo" />
+      <FaPinterestSquare
+        className="footer-logo"
+        testid="pintrest-social-icon"
+      />
+      <FaInstagram className="footer-logo" testid="instagram-social-icon" />
+      <FaTwitter className="footer-logo" testid="twitter-social-icon" />
+      <FaFacebookSquare className="footer-logo" testid="facebook-social-icon" />
     </div>
   </div>
 )

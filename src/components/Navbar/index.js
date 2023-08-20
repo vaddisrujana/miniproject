@@ -12,28 +12,34 @@ const Navbar = props => {
   return (
     <div className="nav-background">
       <div className="nav-container1">
-        <img src={hat} alt="hat" className="nav-icon" />
+        <Link to="/">
+          <img src={hat} alt="website logo" className="nav-icon" />
+        </Link>
         <p className="nav-title">Tasty Kitchens</p>
       </div>
-      <div className="nav-container2">
-        <Link to="/">
-          <p className="active">Home</p>
-        </Link>
-        <Link to="/cart">
-          <p className="not-active">Cart</p>
-        </Link>
-        <Link to="/login">
-          <div>
-            <button
-              className="logout-button"
-              type="button"
-              onClick={onClickLogout}
-            >
-              Logout
-            </button>
-          </div>
-        </Link>
-      </div>
+      <ul>
+        <div className="nav-container2 list">
+          <li className="active">
+            <Link to="/">Home </Link>
+          </li>
+
+          <li className="not-active list">
+            <Link to="/cart">Cart</Link>
+          </li>
+
+          <li>
+            <Link to="/login">
+              <button
+                className="logout-button list"
+                type="button"
+                onClick={onClickLogout}
+              >
+                Logout
+              </button>
+            </Link>
+          </li>
+        </div>
+      </ul>
     </div>
   )
 }
